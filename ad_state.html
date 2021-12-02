@@ -1,0 +1,513 @@
+<html lang="en"><head>
+    <!-- Required meta tags-->
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Admin panel for Liveweb.">
+    <meta name="author" content="Isa Coskun">
+    <meta name="keywords" content="Liveweb Webview App With Admin Panel">
+
+    <!-- Title Page-->
+    <title>Admob Ad State</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+   <!-- Vendor CSS-->
+   <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+   <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+   <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
+   <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+   
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
+<style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style></head>
+
+<body class="animsition" style="animation-duration: 1000ms; opacity: 1;">
+    <div class="page-wrapper">
+        <!-- HEADER DESKTOP-->
+       <header class="header-desktop3 d-none d-lg-block">
+        <div class="section__content section__content--p35">
+            <div class="header3-wrap">
+                <div class="header__logo">
+                    
+                </div>
+                <div class="header__navbar">
+                    <ul class="list-unstyled">
+                        <li class="has-sub">
+                            <a href="#">
+                                <i class="fas fa-tachometer-alt"></i>Splash Screen
+                                <span class="bot-line"></span>
+                            </a>
+                            <ul class="header3-sub-list list-unstyled">
+                                <li>
+                                    <a href="splash_state.html">Splash Screen State</a>
+                                </li>
+                                <li>
+                                    <a href="splash_animation.html">Splash Screen Animation</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a href="#">
+                                <i class="fas fa-tachometer-alt"></i>Navigation &amp; Top Menu
+                                <span class="bot-line"></span>
+                            </a>
+                            <ul class="header3-sub-list list-unstyled">
+                                <li>
+                                    <a href="navigation_menu.html">Navigation Menu Settings</a>
+                                </li>
+                                <li>
+                                    <a href="top_menu.html">Top Menu Settings</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a href="#">
+                                <i class="fas fa-tachometer-alt"></i>Web Pages &amp; Menus
+                                <span class="bot-line"></span>
+                            </a>
+                            <ul class="header3-sub-list list-unstyled">
+                                <li>
+                                    <a href="menu_01_main_page.html">Menu 01 &amp; Main Page</a>
+                                </li>
+                                <li>
+                                    <a href="menu_02.html">Menu 02</a>
+                                </li>
+                                <li>
+                                    <a href="menu_03.html">Menu 03</a>
+                                </li>
+                                <li>
+                                    <a href="menu_04.html">Menu 04</a>
+                                </li>
+                                <li>
+                                    <a href="menu_05.html">Menu 05</a>
+                                </li>
+                                <li>
+                                    <a href="menu_06.html">Menu 06</a>
+                                </li>
+                                <li>
+                                    <a href="menu_07.html">Menu 07</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a href="#">
+                                <i class="fas fa-copy"></i>
+                                <span class="bot-line"></span>Admob & Facebook Ads</a>
+                            <ul class="header3-sub-list list-unstyled">
+                                <li>
+                                    <a href="ad_settings.html">Ad Settings &amp; Integration</a>
+                                </li>
+                                <li>
+                                    <a href="ad_state.html">Ad State</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a href="#">
+                                <i class="fas fa-desktop"></i>
+                                <span class="bot-line"></span>App Settings</a>
+                            <ul class="header3-sub-list list-unstyled">
+                                <li>
+                                    <a href="other_settings.html">Other Settings</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__tool">
+                    
+                    
+                    <div class="account-wrap">
+                        <div class="account-item account-item--style2 clearfix js-item-menu">
+                            <div class="image">
+                                <img src="images/icon/avatar-01.jpg" alt="admin">
+                            </div>
+                            <div class="content">
+                                <a class="js-acc-btn" href="#">Admin</a>
+                            </div>
+                            <div class="account-dropdown js-dropdown">
+                                <div class="info clearfix">
+                                    <div class="image">
+                                        <a href="#">
+                                            <img src="images/icon/avatar-01.jpg" alt="admin">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="name">
+                                            <a href="#">Admin</a>
+                                        </h5>
+                                        <span id="admin_email_id" class="email">a@a.com</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="account-dropdown__footer">
+                                    <a onclick="logout()" href="#">
+                                        <i class="zmdi zmdi-power"></i>Logout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER DESKTOP-->
+
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile header-mobile-2 d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile" style="display: none;">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li class="has-sub">
+                            <a class="js-arrow open" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Splash Screen</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list" style="display: none;">
+                                <li>
+                                    <a href="splash_state.html">Splash Screen State</a>
+                                </li>
+                                <li>
+                                    <a href="splash_animation.html">Splash Screen Animation</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="has-sub">
+                            <a class="js-arrow open" href="#">
+                                <i class="fas fa-bars"></i>Navigation & Top Menu</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list" style="display: none;">
+                                <li>
+                                    <a href="navigation_menu.html">Navigation Menu Settings</a>
+                                </li>
+                                <li>
+                                    <a href="top_menu.html">Top Menu Settings</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow open" href="#">
+                                <i class="far fa-file-word"></i>Web Pages & Menus</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list" style="display: none;">
+                                <li>
+                                    <a href="menu_01_main_page.html">Menu 01 & Main Page</a>
+                                </li>
+                                <li>
+                                    <a href="menu_02.html">Menu 02</a>
+                                </li>
+                                <li>
+                                    <a href="menu_03.html">Menu 03</a>
+                                </li>
+                                <li>
+                                    <a href="menu_04.html">Menu 04</a>
+                                </li>
+                                <li>
+                                    <a href="menu_05.html">Menu 05</a>
+                                </li>
+                                <li>
+                                    <a href="menu_06.html">Menu 06</a>
+                                </li>
+                                <li>
+                                    <a href="menu_07.html">Menu 07</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow open" href="#">
+                                <i class="fab fa-google"></i>Admob & Facebook Ads</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list" style="display: none;">
+                                <li>
+                                    <a href="ad_settings.html">Admob Ad Settings & Integration</a>
+                                </li>
+                                <li>
+                                    <a href="ad_state.html">Admob Ad State</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a class="js-arrow open" href="#">
+                                <i class="fas fa-cog"></i>App Settings</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list" style="display: none;">
+                                <li>
+                                    <a href="other_settings.html">Other Settings</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="sub-header-mobile-2 d-block d-lg-none">
+            <div class="header__tool">
+                
+                
+                <div class="account-wrap">
+                    <div class="account-item account-item--style2 clearfix js-item-menu">
+                        <div class="image">
+                            <img src="images/icon/avatar-01.jpg" alt="admin">
+                        </div>
+                        <div class="content">
+                            <a class="js-acc-btn" href="#">admin</a>
+                        </div>
+                        <div class="account-dropdown js-dropdown">
+                            <div class="info clearfix">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="images/icon/avatar-01.jpg" alt="admin">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h5 class="name">
+                                        <a href="#">admin</a>
+                                    </h5>
+                                    <span id="admin_email_id2" class="email">a@a.com</span>
+                                </div>
+                            </div>
+                            
+                            <div class="account-dropdown__footer">
+                                <a onclick="logout()" href="#">
+                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END HEADER MOBILE -->
+
+        <!-- PAGE CONTENT-->
+        <div class="page-content--bgf7">
+            <!-- BREADCRUMB-->
+            <section class="au-breadcrumb2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="au-breadcrumb-content">
+                                <div class="au-breadcrumb-left">
+                                    <span class="au-breadcrumb-span">You are here:</span>
+                                    <ul class="list-unstyled list-inline au-breadcrumb__list">
+                                        <li class="list-inline-item active">
+                                            <a href="#">Admob & Facebook Ads</a>
+                                        </li>
+                                        <li class="list-inline-item seprate">
+                                            <span>/</span>
+                                        </li>
+                                        <li class="list-inline-item">Admob Ad State</li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END BREADCRUMB-->
+
+            <div class="section__content section__content--p30" id="ad_menu_02" style="display: block;">
+                        <div class="animsition" style="animation-duration: 1000ms; opacity: 1;">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="overview-wrap">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <br>
+        
+                                <div class="map-data m-b-40">
+<h3 class="title-3 m-b-30"><i class="zmdi zmdi-info"></i>Admob Ad State</h3>
+                                        <div class="alert alert-dark" role="alert">
+                                                Enabled Google Admob Ads
+                                                <div class="div-switch-3d">
+                                                    <label class="switch switch-3d switch-success mr-3">
+                                                            <input id="google_ads_toggle" type="checkbox" class="switch-input" checked="true">
+                                                            <span class="switch-label"></span>
+                                                            <span class="switch-handle"></span>
+                                                    </label>
+                                                </div>
+                                        </div>
+    
+                                        <div class="alert alert-success" role="alert">
+                                            <p>Here you can activate the Google Admob Ads.</p>
+                                        </div>
+    
+                                        <hr>
+                                        <br>
+
+                                        <div class="alert alert-dark" role="alert">
+                                                Enabled Admob Banner Ad
+                                                <div class="div-switch-3d">
+                                                    <label class="switch switch-3d switch-success mr-3">
+                                                            <input id="banner_ad_toggle" type="checkbox" class="switch-input" checked="true">
+                                                            <span class="switch-label"></span>
+                                                            <span class="switch-handle"></span>
+                                                    </label>
+                                                </div>
+                                        </div>
+    
+                                        <div class="alert alert-success" role="alert">
+                                            <p>Here you can activate the Google Admob Banner Ad.</p>
+                                        </div>
+    
+                                        <hr>
+                                        <br>
+
+                                        <div class="alert alert-dark" role="alert">
+                                                Enabled Admob Interstitial Ad
+                                                <div class="div-switch-3d">
+                                                    <label class="switch switch-3d switch-success mr-3">
+                                                            <input id="inters_ad_toggle" type="checkbox" class="switch-input" checked="true">
+                                                            <span class="switch-label"></span>
+                                                            <span class="switch-handle"></span>
+                                                    </label>
+                                                </div>
+                                        </div>
+    
+                                        <div class="alert alert-success" role="alert">
+                                            <p>Here you can activate the Google Admob Interstitial Ad.</p>
+                                        </div>
+                                </div>
+                                <!-- facebook -->
+                                <div class="map-data m-b-40">
+                                    <h3 class="title-3 m-b-30"><i class="zmdi zmdi-info"></i>Facebook Ad State</h3>
+                                        <div class="alert alert-dark" role="alert">
+                                                Enabled Facebook Ads
+                                            <div class="div-switch-3d">
+                                                <label class="switch switch-3d switch-success mr-3">
+                                                        <input id="facebook_ads_toggle" type="checkbox" class="switch-input" checked="true">
+                                                        <span class="switch-label"></span>
+                                                        <span class="switch-handle"></span>
+                                                </label>
+                                            </div>
+                                    </div>
+
+                                    <div class="alert alert-success" role="alert">
+                                        <p>Here you can activate the Facebook Ads.</p>
+                                    </div>
+
+                                    <hr>
+                                    <br>
+
+                                    <div class="alert alert-dark" role="alert">
+                                            Enabled Facebook Banner Ad
+                                            <div class="div-switch-3d">
+                                                <label class="switch switch-3d switch-success mr-3">
+                                                        <input id="fbbanner_ad_toggle" type="checkbox" class="switch-input" checked="true">
+                                                        <span class="switch-label"></span>
+                                                        <span class="switch-handle"></span>
+                                                </label>
+                                            </div>
+                                    </div>
+
+                                    <div class="alert alert-success" role="alert">
+                                        <p>Here you can activate the Facebook Banner Ad.</p>
+                                    </div>
+
+                                    <hr>
+                                    <br>
+
+                                    <div class="alert alert-dark" role="alert">
+                                            Enabled Facebook Interstitial Ad
+                                            <div class="div-switch-3d">
+                                                <label class="switch switch-3d switch-success mr-3">
+                                                        <input id="fbinters_ad_toggle" type="checkbox" class="switch-input" checked="true">
+                                                        <span class="switch-label"></span>
+                                                        <span class="switch-handle"></span>
+                                                </label>
+                                            </div>
+                                    </div>
+
+                                    <div class="alert alert-success" role="alert">
+                                        <p>Here you can activate the Facebook Interstitial Ad.</p>
+                                    </div>
+                                </div>
+                                <div class="map-data m-b-40">
+                                    <h3 class="title-3 m-b-30"><i class="zmdi zmdi-info"></i>Ad Show Count</h3>
+                                    <div class="col-md-4">
+                                        <div class="card border border-success">
+                                            <div class="card-header">
+                                                    <p style="text-align:center;"><i class="zmdi zmdi-flare"></i><strong>Current Clicks</strong></p>
+                                            </div>
+                                            <div class="card-body">
+                                                <p style="text-align:center;" id="load_current_inters_count">null</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <form id="load_inters_counter_form" class="form-header" action="" method="POST">
+                                        <input autocomplete="off" id="load_inters_counter" class="au-input au-input--xl" type="number" name="search" placeholder="Set the number of clicks...">
+                                        <button id="submit" class="au-btn--submit" type="submit">
+                                            <i class="zmdi zmdi-mail-send"></i>
+                                        </button>
+                                    </form>
+                        
+                                    <br>
+                                    <div class="alert alert-success" role="alert">
+                                        <p>Here you can set the number of impressions of interstitials. Interstitials will appear on web pages every time the elements are clicked up to the counter.</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+
+
+            <!-- COPYRIGHT-->
+            <footer>
+                <div class="container">
+                  <hr>
+                  <p class="mypagh">  © 2021 - All Rights Reserved.</p>
+                  <p class="mypagh-2">This website was created by <img class="my-img" src="images/like.png"> <a class="my-a" href="https://ixastudio.com" title="IXA Studio"> IXA Studio</a></p>
+                </div>
+              </footer>
+            <!-- END COPYRIGHT-->
+        </div>
+
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="vendor/animsition/animsition.min.js"></script>
+
+    <!-- Firebase Config-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+    <script src="js/firebase/config.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
+    <script src="js/adstate.js"></script>
+
+<!-- end document-->
+</body></html> 
